@@ -1,36 +1,7 @@
-body {
-    /*background-color: #28a745;*/
+* {
+    box-sizing: border-box;
 }
-
-/*Outer Table Styling*/
-table {
-    border-collapse: collapse;
-    margin: 3em 0;
-    opacity: 40%;
-    height: 100%;
-}
-
-/*Inner Table Styling*/
-td, th {
-    /*border: 1px solid black;*/
-    padding: 5px 10px;
-    /*opacity: 100%;*/
-    color: chartreuse;
-    font-weight: bold;
-}
-.updatedTable {
-    font-family: 'Gelasio';
-}
-
-h1 {
-    color: #28a745;
-    margin-right: 10em;
-    /*font-family: 'Ewert';*/
-    /*font-family: 'Shadows Into Light';*/
-    font-family: 'Gelasio';
-}
-/* Background Video */
-
+/* Background Video*/
 .beans {
     width: 100%;
     object-fit: cover;
@@ -38,6 +9,135 @@ h1 {
     position: absolute;
     top: 0;
     z-index: -1;
+}
+
+/* START NAV ITEMS */
+.nav {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Gelasio';
+    font-weight: bold;
+}
+.flex-container {
+    width: 100%;
+    /*border: 3px solid goldenrod;*/
+    justify-content: start;
+}
+.flex-item {
+    background: #BFD45D;
+    /*border: 2px solid #F9EFD6;*/
+    padding: 1em;
+}
+{
+    box-sizing: border-box;
+}
+
+/* company name*/
+
+h1 {
+    color: #28a745;
+    /*margin-left: 10em;*/
+    /*font-family: 'Ewert';*/
+    /*font-family: 'Shadows Into Light';*/
+    font-family: 'Gelasio';
+    max-width: 33%;
+}
+
+/*Placeholder Styling - Search Bar*/
+#input-style {
+    font-family: 'Gelasio';
+}
+
+/*Dropdown Menu Styling*/
+#navbarDropdown {
+    color: #28a745;
+    font-family: 'Gelasio';
+}
+
+#titleBrew{
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+    margin: auto;
+}
+/* END OF NAV ITEMS */
+
+.updatedTable {
+    font-family: 'Gelasio';
+}
+
+#searchBox{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 33%;
+}
+
+.roastSelect{
+    /*float: left;*/
+    margin-top: 0;
+    max-width: 33%;
+}
+
+
+.dropSubmit{
+    background-color: transparent;
+    color: #28a745;
+    border: #28a745 solid 1px;
+    border-radius: 10%;
+}
+.dropBack {
+    background-color: transparent;
+    color: #28a745;
+    border: none;
+}
+#searchBox{
+    background-color: transparent;
+    color: #28a745;
+}
+.dropItems{
+    background-color: transparent;
+    color: #28a745;
+    border: none;
+    font-size: 1.5em;
+}
+#inputBox{
+    /*background-color: chartreuse;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    opacity: 40%;
+}
+#inputTextBack{
+    background-color: transparent;
+    color: black;
+    border-radius: 10%;
+    border: none;
+}
+
+
+body {
+    /*background-color: #28a745;*/
+}
+/*Outer Table Styling*/
+table {
+    color: transparent;
+    margin: 1em 0;
+    height: 100%;
+}
+/*Inner Table Styling*/
+td, th {
+    /*border: 1px solid black;*/
+    padding: 5px 10px;
+    /*opacity: 100%;*/
+    color: #28a745;
+    font-weight: bold;
+}
+.updatedTable {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-family: 'Gelasio';
 }
 
 #navbars {
@@ -53,25 +153,3 @@ h1 {
     color: #28a745;
     font-family: 'Gelasio';
 }
-/*Dropdown Menu Styling*/
-#navbarDropdown {
-    color: #28a745;
-    font-family: 'Gelasio';
-}
-
-
-/*body {*/
-/*    background-color: #28a745;*/
-/*}*/
-/*!*Outer Table Styling*!*/
-/*table {*/
-/*    border-collapse: collapse;*/
-/*    margin: 5em 0;*/
-/*    opacity: 40%;*/
-/*    height: 100%;*/
-/*}*/
-
-
-
-
-
